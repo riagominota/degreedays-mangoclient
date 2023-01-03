@@ -1,0 +1,39 @@
+{
+  "name": "degreedays-mangoclient",
+  "version": "1.0.0",
+  "description": "Module written for user raylatbasix in mango forums. Basic assembly of using mango with nodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests written at this stage'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riagominota/degreedays-mangoclient.git"
+  },
+  "keywords": [
+    "degreedays",
+    "mango",
+    "nodejs",
+    "mango",
+    "automation"
+  ],
+  "author": "Matt 'Fox' Fox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riagominota/degreedays-mangoclient/issues"
+  },
+  "homepage": "https://github.com/riagominota/degreedays-mangoclient#readme",
+  "dependencies": {
+    "mango-client": "^0.4.0",
+    "moment": "^2.19.4",
+    "moment-timezone": "~0.5.14",
+    "uuid": "~3.1.0"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "form-data": "~2.3.1",
+    "mocha": "~3.5.3",
+    "mocha-junit-reporter": "~1.15.0",
+    "tmp": "~0.0.31"
+  }
+}
